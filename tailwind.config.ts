@@ -66,7 +66,8 @@ const config: Config = {
   		},
   		animation: {
   			'shimmer-slide': 'shimmer-slide var(--speed) ease-in-out infinite alternate',
-  			'spin-around': 'spin-around calc(var(--speed) * 2) infinite linear'
+  			'spin-around': 'spin-around calc(var(--speed) * 2) infinite linear',
+  			'header-reveal': 'header-reveal auto ease-in-out both'
   		},
   		keyframes: {
   			'shimmer-slide': {
@@ -87,7 +88,18 @@ const config: Config = {
   				'100%': {
   					transform: 'translateZ(0) rotate(360deg)'
   				}
-  			}
+  			},
+			'header-reveal':{
+				'0%':{
+					'--tw-bg-opacity': '0.1',
+				},
+				'100%':{
+					'--tw-bg-opacity': '0.6',
+					'--tw-backdrop-blur': 'blur(4px)',
+					'-webkit-backdrop-filter': 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)',
+    				'backdrop-filter': 'var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)'
+				}
+			}
   		}
   	}
   },

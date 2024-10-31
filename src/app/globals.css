@@ -84,3 +84,9 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.progress-scrollview-1{
+  animation-timeline: scroll(root block);
+  animation-range: 0px 20px;
+  transition: all;
+}

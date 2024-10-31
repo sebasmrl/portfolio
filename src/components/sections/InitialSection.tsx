@@ -24,7 +24,7 @@ export const InitialSection = () => {
                 <p className="font-medium text-2xl">Hola, Soy</p>
                 <h1 className=" font-extrabold text-transparent text-5xl md:text-7xl bg-clip-text bg-gradient-to-r from-sky-400 to-violet-600">Sebastian Morales</h1>
                 <WordRotate className="text-3xl sm:text-4xl font-light" words={["Ingeniero de Sistemas", "Desarrollador Front-end", "Desarrollador Back-end", "Diseñador Ui"]} />
-                <div className="flex gap-2 mt-4 text-sm sm:text-base justify-center sm:justify-start">
+                <div className="flex gap-2 mt-4 text-sm md:text-base justify-center sm:justify-start">
                     <Link href={'/'} className="flex flex-nowrap items-center text-white content-center justify-center gap-1 py-2 px-4  rounded-full bg-gradient-to-r from-sky-400 to-violet-600 hover:bg-gradient-to-l active:opacity-65" >
                         <span className="">Descargar CV</span>
                         <MdDownload size={20} className="" /></Link>

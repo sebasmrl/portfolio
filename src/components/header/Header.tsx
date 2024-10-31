@@ -3,7 +3,7 @@ import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5"
 
 export const Header = () => {
   return (
-    <header className="flex justify-between items-center py-2 px-4 sm:px-32  fixed w-full"> {/* bg-sky-900 bg-opacity-5 backdrop-filter */}
+    <header className="flex justify-between items-center py-2 px-4 sm:px-32  fixed w-full animate-header-reveal progress-scrollview-1 bg-slate-950  z-10"> {/* bg-sky-900 bg-opacity-5 backdrop-filter */}
             <Link href={'/'} className="p-2 text-2xl font-black ">Sebastian Morales</Link>
             
 
