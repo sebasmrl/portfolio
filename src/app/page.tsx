@@ -1,5 +1,5 @@
 
-import { BackgroundSvg, CoreFeaturesSection, Header } from "@/components";
+import { BackgroundSvg, CoreFeaturesSection, ExperienceSection, Header } from "@/components";
 import { InitialSection } from "@/components/sections/InitialSection";
 
 export default function HomePage() {
@@ -10,6 +10,7 @@ export default function HomePage() {
       <main className="flex flex-col px-4 sm:px-10 md:px-10 lg:px-32 pt-14 sm:pt-20 ">
         <InitialSection />
         <CoreFeaturesSection /> 
+        <ExperienceSection />
        
        <br />
        <br />
