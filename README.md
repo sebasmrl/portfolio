@@ -13,6 +13,7 @@ Este repositorio corresponde a mi portfolio, donde podras conocer un poco más d
 ## Instalaciones
 ``` bash
     npm install @fontsource-variable/onest
+    npx shadcn@latest add button #no se coloca por defecto en magicui
 
 ```
 

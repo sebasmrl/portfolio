@@ -36,16 +36,15 @@ export const ExperienceSection = () => {
           enterprise="Corporación Universitaria Rafael Núñez"
           lapsusText="Desde Agosto hasta Octubre de 2021"
           tasks={[
-            'Sistema de gestión académica de la facultad de Enfermería',
-            'Levantar historias de usuario necesarias para la ejecucion del proyecto.', 
-            'Determinar los tiempos de ejecución de las historias de usuario junto al cronograma de las mismas.', 
-            'Diseñar UI de la aplicación (Figma).', 
-            'Desarrollar back-end de la aplicacion.', 
-            'Consumir servicios REST determinados en Backend'
+            'Sistema de gestión académica de la facultad de Enfermería.',
+            'Levantar historias de usuario necesarias para la ejecucion del proyecto.',
+            'Determinar los tiempos de ejecución de las historias de usuario junto al cronograma de las mismas.',
+            'Diseñar UI de la aplicación (Figma).',
+            'Desarrollar back-end de la aplicacion.',
+            'Consumir servicios REST determinados en Backend.'
           ]}
         />
       </ol>
-
 
     </section>
   )
