@@ -36,7 +36,7 @@ export const ExperienceSection = () => {
           enterprise="Corporación Universitaria Rafael Núñez"
           lapsusText="Desde Agosto hasta Octubre de 2021"
           tasks={[
-            'Sistema de gestión académica de la facultad de Enfermería.',
+            'Sistema de gestión académica de la Facultad de Enfermería de la CURN.',
             'Levantar historias de usuario necesarias para la ejecucion del proyecto.',
             'Determinar los tiempos de ejecución de las historias de usuario junto al cronograma de las mismas.',
             'Diseñar UI de la aplicación (Figma).',

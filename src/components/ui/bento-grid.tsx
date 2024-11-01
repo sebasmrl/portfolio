@@ -73,7 +73,7 @@ const BentoCard = ({
         {
         (cta)?
         <Button variant="ghost" asChild size="sm" className="pointer-events-auto hover:bg-slate-100 hover:text-sky-950 border border-white/30">
-          <Link href={href}>
+          <Link href={href} target="_blank" rel="noopener noreferrer">
             {cta}
             <ArrowRightIcon className="ml-2 h-4 w-4" />
           </Link>
