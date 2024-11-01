@@ -17,7 +17,7 @@ export const ExperienceSection = () => {
             'Desarrollar sitio web en base al sistema UI.',
             'Agregar caracteristicas SEO.',
             'Desplegar servicio en Vercel.',
-            'Agregar dominio y seguridad ante D-DOS ataccks con Cloudflare.',
+            'Agregar dominio y seguridad ante D-DOS attacks con Cloudflare.',
             'Brindar soporte continuo ante futuras preferencias.',
           ]}
         />
