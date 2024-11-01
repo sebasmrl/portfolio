@@ -6,6 +6,6 @@ export { Footer } from "../footer/Footer";
 export { InitialSection } from "./InitialSection";
 export { ProjectItem } from "./projects/ProjectItem";
 export { ProjectsSection } from "./projects/ProjectsSection";
+export { NavLinks } from "../header/NavLinks";
 export { SkillItem } from "./skills/SkillsItem";
 export { SkillsSection } from "./skills/SkillsSection";
-
