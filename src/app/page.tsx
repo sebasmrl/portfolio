@@ -1,6 +1,6 @@
 
 import { BackgroundSvg, CoreFeaturesSection, ExperienceSection, Header } from "@/components";
-import { ProjectsSection, SkillsSection } from "@/components/sections";
+import { Footer, ProjectsSection, SkillsSection } from "@/components/sections";
 import { InitialSection } from "@/components/sections/InitialSection";
 
 export default function HomePage() {
@@ -14,25 +14,9 @@ export default function HomePage() {
         <ExperienceSection />
         <ProjectsSection />
         <SkillsSection />
-       
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
       </main>
-
+        <Footer />
     </div>
+    
   );
 }
