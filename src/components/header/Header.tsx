@@ -15,8 +15,8 @@ export const Header = () => {
             </nav>  
 
             <div className="flex gap-2">
-              <Link href={'/'} className="hover:scale-105"><IoLogoLinkedin size={30}/></Link>
-              <Link href={'/'} className="hover:scale-105"><IoLogoGithub size={30}/></Link>
+              <Link target="_blank" rel="noopener noreferrer"  href={'https://www.linkedin.com/in/deivy-sebastian-morales'} className="hover:scale-105"><IoLogoLinkedin size={30}/></Link>
+              <Link target="_blank" rel="noopener noreferrer" href={'https://github.com/sebasmrl'} className="hover:scale-105"><IoLogoGithub size={30}/></Link>
             </div>
       </header>
   )
