@@ -19,7 +19,7 @@ const projects: { name: string, description: string, image: string, actionButton
   },
   {
     name: 'Nursing Núñez',
-    description: 'Sistema de gestión académica de la facultad de Enfermería de la Corporación Universitaria Rafael Núñez.',
+    description: 'Sistema de gestión académica de la Facultad de Enfermería de la Corporación Universitaria Rafael Núñez.',
     image: '/mockups/nursing-nunez-mockup.svg',
   },
 ]
