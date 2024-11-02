@@ -30,7 +30,6 @@ export const AboutSection = () => {
                     </p>
                 </div>
                 
-
             </article>
 
         </section>
