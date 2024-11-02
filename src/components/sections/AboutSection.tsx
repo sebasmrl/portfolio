@@ -14,6 +14,7 @@ export const AboutSection = () => {
                         alt={"Logo Sebastian Morales"}
                         width={130}
                         height={130}
+                        style={{height:'auto', width:'8rem'}}
                     />
                     <div className="flex flex-col items-center justify-center">
                     <p className="sm:text-lg inline-flex flex-nowrap gap-2"><MailIcon/> <span>davesebastian99@gmail.com</span></p>
