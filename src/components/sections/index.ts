@@ -1,3 +1,4 @@
+export { AboutSection } from "./AboutSection";
 export { CoreFeatureItem } from "./core-features/CoreFeatureItem";
 export { CoreFeaturesSection } from "./core-features/CoreFeaturesSection";
 export { ExperienceSection } from "./experience/ExperienceSection";

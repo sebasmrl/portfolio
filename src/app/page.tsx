@@ -1,6 +1,6 @@
 
 import { BackgroundSvg, CoreFeaturesSection, ExperienceSection, Header } from "@/components";
-import { Footer, ProjectsSection, SkillsSection } from "@/components/sections";
+import { AboutSection, Footer, ProjectsSection, SkillsSection } from "@/components/sections";
 import { InitialSection } from "@/components/sections/InitialSection";
 
 export default function HomePage() {
@@ -14,6 +14,7 @@ export default function HomePage() {
         <ExperienceSection />
         <ProjectsSection />
         <SkillsSection />
+        <AboutSection />
       </main>
         <Footer />
     </div>
