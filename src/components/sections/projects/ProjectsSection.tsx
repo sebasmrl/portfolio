@@ -4,6 +4,15 @@ import { ProjectItem } from './ProjectItem'
 
 const projects: { name: string, description: string, image: string, actionButton?: { text: string, href: string } }[] = [
   {
+    name: 'Comodos Backend',
+    description: 'Esta aplicación backend está desarrollada en Nestjs usando TypeORM con Postgre y AWS S3 para la gestión de inmuebles para arrendamiento.',
+    image: '/mockups/comodos.svg',
+    actionButton: {
+      text: 'Ver Código',
+      href: 'https://github.com/sebasmrl/comodos-backend'
+    }
+  },
+  {
     name: 'Lauriyei Mantenimientos',
     description: 'Sitio web empresarial de Lauriyei Mantenimientos enfocado a SEO.',
     image: '/mockups/lauriyei-mockup.svg',
@@ -22,6 +31,7 @@ const projects: { name: string, description: string, image: string, actionButton
     description: 'Sistema de gestión académica de la Facultad de Enfermería de la Corporación Universitaria Rafael Núñez.',
     image: '/mockups/nursing-nunez-mockup.svg',
   },
+  
 ]
 
 
