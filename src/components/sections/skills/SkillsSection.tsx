@@ -78,7 +78,7 @@ const secondRow = tecnologies.slice(tecnologies.length / 2);
 
 export function SkillsSection() {
   return (
-    <section id="skills" className="w-full dark mt-16 md:mt-24">
+    <section id="skills" className="w-full  mt-16 md:mt-24">
       <h2 className='pb-8 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-violet-600'>
         Habilidades
       </h2>

@@ -40,7 +40,7 @@ export const ProjectsSection = () => {
     <section id="projects" className='mt-16 md:mt-36 py-4'>
       <h2 className='pb-8 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-violet-600'>Proyectos</h2>
 
-      <BentoGrid className='dark grid grid-cols-1 sm:grid-cols-2 sm:gap-x-2 gap-y-0 '>
+      <BentoGrid className=' grid grid-cols-1 sm:grid-cols-2 sm:gap-x-2 gap-y-0 '>
 
         {
           projects.map(project => (

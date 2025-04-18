@@ -1,10 +1,12 @@
 import Link from "next/link"
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5"
 import { NavLinks } from "./NavLinks"
+import { ThemeToggle } from "../theme/ThemeToogle"
+
 
 export const Header = () => {
   return (
-    <header className="flex justify-between items-center py-2 px-4 sm:px-32  fixed w-full animate-header-reveal progress-scrollview-1 bg-slate-950  z-10"> {/* bg-sky-900 bg-opacity-5 backdrop-filter */}
+    <header className="flex justify-between items-center py-2 px-4 sm:px-32  fixed w-full animate-header-reveal dark:progress-scrollview-1 bg-slate-950 z-10 text-white dark:text-white"> {/* bg-sky-900 bg-opacity-5 backdrop-filter */}
       <Link href={'/'} className="p-2 text-2xl font-black w-16 h-16">
         <svg  viewBox="0 0 446 389" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M381 237H389L397 242L400 248V258L395 273L388 289L378 306L369 318L360 329L348 341L334 352L325 359L307 369L289 377L270 383L251 387L228 389H215L195 387L170 382L149 375L132 367L117 358L103 348L97 341L96 339V329L100 323L104 320L111 319L119 322L134 332L148 340L166 348L186 354L205 357H233L255 354L273 349L290 342L307 332L318 324L324 319H326L327 316L335 309L347 294L356 280L363 266L370 247L375 240L381 237Z" fill="#FCFCFC" />
@@ -24,10 +26,11 @@ export const Header = () => {
 
       <NavLinks />
 
-      <div className="flex gap-2">
+      <div className="flex gap-2 justify-center items-center">
         <Link target="_blank" rel="noopener noreferrer" href={'https://www.linkedin.com/in/deivy-sebastian-morales'} className="hover:scale-10"><IoLogoLinkedin size={30} /></Link>
         <Link target="_blank" rel="noopener noreferrer" href={'https://github.com/sebasmrl'} className="hover:scale-105"><IoLogoGithub size={30} /></Link>
-      </div>
+        <ThemeToggle />
+      </div>  
     </header>
   )
 }

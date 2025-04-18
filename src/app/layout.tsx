@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 
 import '@fontsource-variable/onest';
 import "./globals.css";
+import { ThemeProvider } from "./providers/theme-provider";
 
 
 
@@ -34,7 +35,15 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <ThemeProvider
+          attribute="class"
+          enableSystem={true}
+          defaultTheme="dark"
+          /* defaultTheme="" */
+          /* disableTransitionOnChange */
+        >
         {children}
+        </ThemeProvider>
       </body>
     </html>
   );

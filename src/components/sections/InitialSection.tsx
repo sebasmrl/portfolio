@@ -6,7 +6,7 @@ import WordRotate from '../ui/word-rotate'
 
 export const InitialSection = () => {
     return (
-        <section className="grid grid-cols-1 sm:grid-cols-3 w-full gap-2 gap-y-6 sm:gap-y-2 pt-20 sm:py-20">
+        <section className="grid grid-cols-1 sm:grid-cols-3 w-full gap-2 gap-y-6 sm:gap-y-2 pt-20 sm:py-20 dark:text-white">
             <div className="flex justify-center sm:col-start-3">
                 <div className="rounded-full overflow-hidden">
                     <Image
@@ -28,7 +28,7 @@ export const InitialSection = () => {
                     <Link href={'https://drive.google.com/file/d/1VSFgMa8YMimLPa0zibWEdcEDVVjWRdD1/view?usp=sharing'} target='_blank' rel='noopener noreferrer ' className="flex flex-nowrap items-center text-white content-center justify-center gap-1 py-2 px-4  rounded-full bg-gradient-to-r from-sky-400 to-violet-600 hover:bg-gradient-to-l active:opacity-65" >
                         <span className="">Descargar CV</span>
                         <MdDownload size={20} className="" /></Link>
-                    <ShimmerButton className="py-2">Disponible para trabajar</ShimmerButton>
+                    <ShimmerButton className="py-2 dark:text-white text-white">Disponible para trabajar</ShimmerButton>
                 </div>
             </div>
 
