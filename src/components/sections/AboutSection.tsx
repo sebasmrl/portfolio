@@ -19,7 +19,7 @@ export const AboutSection = () => {
                     />
                     <div className="flex flex-col items-center justify-center">
                     <p className="sm:text-lg inline-flex flex-nowrap gap-2"><MailIcon/> <span>davesebastian99@gmail.com</span></p>
-                    <p className="sm:text-lg inline-flex flex-nowrap gap-2"> <PhoneCallIcon/> <span>+57 3246556820</span></p>
+                    <p className="sm:text-lg inline-flex flex-nowrap gap-2"> <PhoneCallIcon/> <span>+57 3182793416</span></p>
                     </div>
                 </div>
                 <div className="col-span-1 flex flex-col md:col-start-1 md:row-start-1">
