@@ -8,6 +8,22 @@ export const ExperienceSection = () => {
 
       <ol className="relative border-s border-gray-200 dark:border-gray-700 w-full" >
         <ExperienceItem
+          enterprise="Comodos.co - Independiente"
+          lapsusText="Desde Enero hasta Agosto de 2025"
+          tasks={[
+            'Aplicación web Comodos con las tecnologia de Next.js y Nestjs integrando servicos de AWS como S3, RDS y ECS',
+            'Diseñar modelos de datos(ER) para la aplicación.',
+            'Definir personas, roles, politicas y asignacion de recursos de AWS.',
+            'Desarrollar Resful API en Nest.js integrando servicios de AWS como RDS, S3 y CloudFront.',
+            'Diseñar y desarrollar Frontend con Next.js implementado gestores de estado(Zustand), también server & client actions, Axios para peticiones HTTP, Auth.js para autenticación, TailwindCSS y GoogleMaps API para la captura y muestreo de coordenadas.',
+            'Habilitar certificados SSL.',
+            'Integración de backend y frontend.',
+            'Despliegue backend Restful API en AWS ECS Fargate con asignación de ELB.',
+            'Despliegue frontend en Vercel.',
+            'Habilitar dominios y subdominios para ambos servicios desde Cloudflare.'
+          ]}
+        />
+        <ExperienceItem
           enterprise="Lauriyei Mantenimientos"
           lapsusText="Desde Julio hasta Octubre de 2024"
           tasks={[

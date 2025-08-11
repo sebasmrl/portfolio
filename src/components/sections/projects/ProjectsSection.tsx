@@ -4,12 +4,12 @@ import { ProjectItem } from './ProjectItem'
 
 const projects: { name: string, description: string, image: string, actionButton?: { text: string, href: string } }[] = [
   {
-    name: 'Comodos Backend',
-    description: 'Esta aplicación backend está desarrollada en Nestjs usando TypeORM con Postgre y AWS S3 para la gestión de inmuebles para arrendamiento.',
+    name: 'Comodos.co',
+    description: 'App web para encontrar inmuebles para arrendamiento basada en busqueda cercana a traves de coordenadas (lat,lng) y filtros adicionales.',
     image: '/mockups/comodos.svg',
     actionButton: {
-      text: 'Ver Código',
-      href: 'https://github.com/sebasmrl/comodos-backend'
+      text: 'Visitar',
+      href: 'https://www.comodos.co'
     }
   },
   {
