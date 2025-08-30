@@ -11,7 +11,7 @@ export const ExperienceSection = () => {
           enterprise="Comodos.co - Independiente"
           lapsusText="Desde Enero hasta Agosto de 2025"
           tasks={[
-            'Aplicación web Comodos con las tecnologia de Next.js y Nestjs integrando servicos de AWS como S3, RDS y ECS',
+            'Aplicación web Comodos con las tecnologias de Next.js y Nest.js integrando servicios de AWS como S3, RDS y ECS',
             'Diseñar modelos de datos(ER) para la aplicación.',
             'Definir personas, roles, politicas y asignacion de recursos de AWS.',
             'Desarrollar Resful API en Nest.js integrando servicios de AWS como RDS, S3 y CloudFront.',
