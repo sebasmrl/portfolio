@@ -2,7 +2,7 @@ import { CoreFeatureItem } from "./CoreFeatureItem"
 
 const features: { accentTitle?:string, accentText?: string; text?: string }[] = [
   { accentTitle:'1', accentText:'año y 7 meses', text:'de Experiencia.'},
-  { accentTitle:'3', accentText:'proyectos', text:'finalizados.'},
+  { accentTitle:'4', accentText:'proyectos', text:'finalizados.'},
   { accentTitle:'', accentText:'Ing. Sistemas', text:'Pregrado'},
 ]
 
