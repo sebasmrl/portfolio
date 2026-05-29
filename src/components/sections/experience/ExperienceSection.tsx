@@ -8,6 +8,25 @@ export const ExperienceSection = () => {
 
       <ol className="relative border-s border-gray-200 dark:border-gray-700 w-full" >
         <ExperienceItem
+          enterprise="Cirkular Agro Fintech S.A.S"
+          lapsusText="Desde Octubre de 2025 hasta Mayo de 2026"
+          tasks={[
+            "Desarrollo de aplicaciones backend utilizando NestJS y TypeScript.",
+            "Implementación de servicios de análisis de imágenes mediante integración con modelos de OpenAI.",
+            "Desarrollo de aplicaciones web y paneles administrativos en Next.js.",
+            "Implementación de Azure Functions para integración de sistemas empresariales mediante HTTP - RPC con Odoo.",
+            "Diseño e integración de APIs y flujos de comunicación entre múltiples plataformas.",
+            "Administración y modelado de bases de datos PostgreSQL en Azure.",
+            "Despliegue y administración de aplicaciones en contenedores sobre Azure.",
+            "Configuración y gestión de Virtual Networks, políticas de acceso y recursos cloud en Azure.",
+            "Automatización y sistematización de procesos manuales mediante generación de trazabilidad, identificadores únicos y relacionamiento de datos.",
+            "Mapeo, transformación y consolidación de información proveniente de diferentes sistemas.",
+            "Definición de arquitectura técnica, priorización de tareas y planeación de rutas de desarrollo.",
+            "Desarrollo de interfaces para visualización y análisis de datos en Next.js y Looker Studio.",
+            "Integración completa entre servicios, aplicativos y herramientas internas de la organización."
+          ]}
+        />
+        <ExperienceItem
           enterprise="Comodos.co - Independiente"
           lapsusText="Desde Enero hasta Agosto de 2025"
           tasks={[
